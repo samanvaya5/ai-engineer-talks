@@ -1,0 +1,39 @@
+# AIE Community Growth
+
+you're going to be able to tell from my accent very quickly I'm actually Scottish.
+So this conference for me is very very special.
+Um I spent most of my career in London over 15 years right at the heart of European tech growth.
+Um and so today is very special for us to be bringing our first European conference here.
+Um this is our sixth conference now.
+Um obviously our first in London and honestly the energy around it has completely exceeded all of our expectations.
+So thank you.
+Um AI engineers actually grown at a rate of 900% over the last three years um from our first small event in 2023 in San Francisco.
+Uh we did three events last year hosting almost 5,000 attendees.
+We're just getting started as you can see.
+Um, as well as our core events, we also have a series of licensed events that we do, our partner events, um, across different cities as well.
+This year, we're doing Miami, Singapore, Melbourne, and Paris.
+So, if any of you happen to be in those areas, check out those dates on the website.
+Um, but yes, London was our top priority this year um because really it is some of the most important work in AI is being done right here and of course in uh in Europe.
+Uh just this morning we myself and Swix were at 10 Downing Street um with uh Kalpier Sohi who is the first ever UK chief AI engineer officer who was appointed in January.
+Um and what was very clear from the conversation in that room is the ambition of the UK um is accelerating very fast.
+Um and that creates huge opportunity for everyone in this room um to do very meaningful and careerdefining work in the very near future.
+So over the next few days, I encourage you to do two things.
+First, learn, go deep, ask questions, challenge ideas.
+Um, and second, connect.
+Speak to each other.
+Speak to our sponsors, our speakers.
+Um, and just make connections.
+Um, that will create opportunities and progress.
+Um, because this community only works when we're open, collaborative, and practical.
+So, enjoy this experience together.
+Uh, paving the way of the future of AI.
+Um, welcome to AI Engineer Europe.
+Feel free to come say hello at any point.
+I'll be here for the next couple of days.
+Enjoy everyone.
+Thank you.
+Our first speaker draws on over 25 years of software engineering experience from his time at Google and now Versel.
+He will explore what it means to build infrastructure and applications in a world where agents are both the builders and users of software.
+Please join me in welcoming to the stage the CTO of Versel, Malté Uel.
+Good morning everyone.
+This is awesome.

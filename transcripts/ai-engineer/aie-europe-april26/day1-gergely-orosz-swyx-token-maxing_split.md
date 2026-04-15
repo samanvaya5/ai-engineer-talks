@@ -1,0 +1,199 @@
+# Token Maxing & Software Engineering + AI
+
+>> Wow.
+>> Uh he is uh he needs no introduction then.
+Let's get right into it.
+Um what is token maxing and should everyone here be doing it? So I I heard about token maxing a week ago or like week and a half ago first and you know some people have been doing it for longer and I tweeted about it I think three days ago saying oh there's this token maxing and again you see it on social media and my DMs were blowing up from from people at large companies I don't want to name names but like you know Meta Microsoft uh some so some so some some other ones as well like uh the likes of and and so so many more and the story is a little bit different every at every company on why people are doing it and whether they like it or whether they think it's good.
+But there's a few a few common themes.
+One is token output at these larger companies is measured in in some way.
+There's like either a leaderboard or there's a way to look up your your peers.
+Salesforce, for example, you can check the spend the the money spend that every every person at the company did.
+You can like search in a tool that someone built and it shows how many dollars they spent on on AI related tokens and you know first there's this number then there's this uncertainty on in the tech industry right we're kind of hearing layoffs like massive cuts at the likes of block and I mean there like no matter how much tokens people spend they were let go independent of this but people start to think like does is it part of performance evaluations or promotions or all that and the answer is kind of so inside of meta I talk with managers and in the performance evaluation they have this data point which is one of many data points right the same way as as like diffs or impact or or code reviews of how helpful this person is but they do just like with any data point they sometimes pull it in and use it so typically and just like any data point it can be weaponized so like a low performer with low impact and a low token count clearly not even trying so and a high performer with high impact and high token count.
+Clear that's innovating and this must be doing good.
+So inside of these companies specifically I talked with a lot of people at at Meta and again this is not representative of 100% of Meta but they had this leaderboard where people showed up and they have like massive amounts of tokens and a lot of engineers got just scared worried so they started to token max to try to generate tokens.
+stories that I've heard first or well secondhand from these people who who who told me firsthand is for example instead of reading the documentation I will ask the agent to summarize it for me and ask questions even though it doesn't do a good job answering it but my token count goes up people just want to not be in the bottom 25% or bottom 50% for token count where these things are measured inside of Microsoft again there's a leaderboard and I'm talking with people they're like it's ridiculous like how some people are just running autonomous agents to build junk honestly for the sake of having that number go up and and sometimes it gets ridiculous because like inside of meta they had this leaderboard they got rid of it after an article came out and it looked amaz whoever built it like just just like closed it down.
+that people are still token maxing by the way because there's this this thinking that it might have gone but you know we're engineers and don't forget these are high-paying jobs right that like you don't really want to lose a job over something stupid as like you didn't have INF token count and that's how it feels but inside Salesforce there's a target of minimum spend per month like I think it's like $175 between things so like people are like again you kind of like you know beginning of the month like just token max to get there so it's it's it's weird and it started as a joke earlier like a few months ago token maxing was really just people like going crazy and enjoying this thing and building cool stuff but it's kind of turned into in a lot of companies I think it's just a culturally weird thing so it's a weird time to be in because I remember lines of code used to be when when early uh developer productivity tools came out like velocity and pluralite flow they kind of measured lines of code and and number of QPRs and we know that was stupid and people kind of optimized for that at companies that did it but it's it's almost like what now it's the top running companies like Meta Microsoft who are incentivizing ing people to to do just stupid stuff, honestly.
+>> Yeah, those are wild stories.
+And one of the things you're clapping for that deserves another full conversation.
+Uh, one of the things I like about talking with you and subscribing to your newsletter is that you basically kind of anonymize all these stories from from real incidents and real examples.
+Um why is it that uh is is it still worth it right with all the flaws uh you know when you have good hearts law like what whatever gets measured gets uh sort of abused with all the flaws is it still worth it you know is is is AI basically still making us faster overall like the cost of token maxing is still with all these like really ridiculous examples is it still net worth it? >> Yeah.
+So, don't forget like the reason token maxing is probably a thing is like let's just go back to six months ago where I I I was at a I was at a CTO like dinner conference whatever like a bunch of CTO's gather CTO level people this this was in Amsterdam and we had like like a bunch of people and there were talking and and one of the CTOs like the the the Amazon of the Netherlands uh there there's a e-commerce company was saying like hey like everyone like I have a problem like engineers on my team are really skeptical of AI and they're not really using it the AI tools don't forget this was before Opus 4.5 and those models were were out they were not as as productive we had uh we we already had a cursor and and the like and they subscribed they're like not using it that much on existing code bases right and and next to them uh the head of the Dutch national bank said like oh we don't have that problem ours are using it because our our mission is to regulate this thing so we need to understand it and they're kind of motivated and there was this time where experienced engineers were kind of holding off because if you had an existing code base and use AI cursor whatever on it it was mildly useful if that even and these engineers were like why should I use a tool if it doesn't help me refactor it doesn't find the bug it doesn't do what I need to do and leadership saw they're not really using it and they kept hearing you know the likes of Antroic for example was already saying how they're writing a lot of their code with with cloud code uh and it just keeps increasing and entropics you know like revenue is going up like this.
+So those leaders are kind of they might be confusing correlation and and and you know like which one comes first but they're like well we should be using it more because probably good things will happen and thus bad things will happen if we don't use it.
+So the whole targeting and measuring things it actually came from leadership wanting we want our engineers to use faking AI.
+I don't care what it is.
+And it it was a bit of a push.
+Like we know this is bad, but it's it's better than them using it.
+A best example is Coinbase where uh Brian Armstrong, the CEO, just like fired an engineer or he sent an email saying everyone like needs to get on board and use AI tools and whoever doesn't use it in a week, I'll have a conversation with them and then I think a week later or Saturday, he fired an engineer and you know like this again high paying job like we're talking base salary like three 400k,000 per per year.
+uh and then both equity and everything on top of it like they got the message everyone just start to just you know like use it and you know back to your question so on on one there there's a push and look I feel it's a little bit like this is going to be controversial but have you ever wor wonder wondered why big tech love to do lead code style interviews algorithmical interviews which have nothing to do with the job and and we know it's the case and there's a lot of criticism for this and they've been doing this since since like 20 years But here's the thing.
+It selects for a specific type of person.
+It selects for the person who's smart and willing to put up with absolute to get the job.
+And this person, you know, they will study two months preI two months or three months of lead code, which again makes no sense on the job, but you do it.
+You get in there and this person will be putting to put up with that makes absolute no sense to keep the job.
+So token maxing happens at large companies and people are putting up with this BS and look a lot of them are smart and they will make the most of it.
+Some of them will build cool stuff.
+Um it's it's the reality I think of big tech.
+So we're in this weird place where big tech is a bit weirder than startups where you know no one cares about tokenaxing.
+They care about like just building stuff and you know use whatever makes sense.
+Don't people will care about the cost.
+>> Yeah.
+But going back to your question like like you know like is is it making us productive as as a whole like individually it's it certainly is and as teams we're kind of like a bit question mark because we should be moving faster and there are a few companies that do androphic is a good example but a bunch of companies are like not it's it's it seems it's hard to retrofit all this AI into like the way we have been working.
+>> Yeah.
+Uh one of my favorite studies from last year was the meter study where they uh did a blind test of uh people and their expectations of productivity, right? And basically the the end result was they felt 20% more productive but their demonstrated results was actually they were 20% less productive on average.
+>> Yes.
+But that that study was very interesting because they >> it was very small sample size.
+>> It was 30 people and there was one outlier uh who actually was way more We we interviewed him on the pod.
+Yeah.
+Yeah.
+Yeah.
+So he was the one productive AI engineer.
+But anyway, so uh actually my theory is that uh something that I've seen on my team is that I've been enabling coding agents for the rest of my team who are nontechnical, right? And uh you as the engineer may not be more much that much more productive because and you can be more productive if you uh attend AIE.
+But uh if you actually enable your non-coding uh your your non-coding co collaborators to code actually they are more productive because they don't have to wait for you right and that's that like unlock of like oh suddenly you have serverless developers basically uh and I think I think that's that organizational coding thing is different than studying pull request level productivity for the individual developer.
+Yeah.
+And and the thing that still I still remember to this date I I talked with Simon Willis I think in 2024.
+So two years after Chad GPT came out and he was Simon Wilson top commenter on Hacker News or he's he's >> that's his that's not his title man.
+Top commenter on Hacker News.
+What the >> No >> creative Django top blogger.
+Yeah.
+Uh prompt injections.
+Uh yeah.
+>> Yeah.
+He's actually not top commenter.
+he's the most submitted block cuz he blocks so much like like and he's >> but he told me back then he said like this thing AI is is just so hard to to get good at.
+He's like there's no manual and he's like I've been doing it back then for two years and I'm still I'm still figuring out what works and what doesn't.
+I keep changing my workflows and I think that's something that is a bit hard for us.
+Two things about AI that for anyone engineers is hard to understand.
+One is it just takes a long time to get good at it and you need to keep doing it.
+And the second thing is understanding the theory will not make you better at using the tools which is an absolute mind honestly because we're so used to you know you understand how the compiler works, how assembly works.
+Okay, you will now be more efficient if you want to write low-level code because you know how it works.
+But what with these things I mean you you could of course it's helpful to understand how how the the architecture underlying works attention the different the the different probability sets etc etc but it will not help you get a sense for how you can use it and then once you figure out how you can be more productive if you're if you're inside of a team again it kind of breaks and you have to relearn again but but the more effort you put into it it like it's clear that it's it's working it's helpful and I think it it's the teams I'm seeing and getting more value out of it.
+Low ego, open to learning, open to leaving your priors behind.
+The word priors I have not used forever and I feel we're in this stage where like just just leave your priors behind.
+Just have an open mind like don't leave your experience behind but you know be open to it.
+>> Yeah.
+Zooming out a little bit.
+How is the role of the software engineer changing? >> I think it's always this was always coming but AI is just just speeding it up.
+uh even before AI a few it's interesting how you see like startups in many ways venture funded startups are kind of front running what the industry will be catching up because venture funded startups are about fast growth um doing mo moving fast with smaller teams because smaller teams mean smaller comps even pre-AI so a lot a lot of these venture funded startups start to expect a lot wider range of roles from engineers for example DevOps as a whole inside VC funded companies from the mid 2010s, every engineer was kind of like responsible for the code they deployed.
+But like more traditional companies, they had more money, more sorry, more less pressure.
+They kind of have dedicated DevOps teams and some of those things.
+So in in the industry like the software engineer is now becoming like the kind of the tester role has collapsed into software engineer.
+We most companies don't have dedicated testers.
+Very very few do.
+DevOps collapse into here.
+Uh and now we're starting to have the product role also starting to come.
+So a lot of companies even like in 2022 before AI start to hire for product engineers that's happening faster and I think the the last push that AI is doing is even for early career engineers there's a lot more seniority expected or or senior like things planning about things knowing about the business so I I I think the role is expectations are are higher teams are also getting smaller everywhere I talked with someone at John Deere 200 person uh 200 year old company sorry uh you know like they do tractors and and all all that stuff.
+And and inside of that company, one of their their VP of engineerings was telling me how they're actually seeing that their two pizza teams are now just one pizza teams inside of that company.
+It's the reality partially because of these tools.
+>> So my joke used to be I am a one pizza team because I eat a lot of pizza, but uh depends how much pizza you eat.
+Uh there's so I'm sorry to interrupt.
+I don't know if I cut you off in some critical points.
+Uh there's a comment saying I've heard it twice even among this audience where a lot of people are saying that oh uh you're no longer an engineer everyone's an engineering manager now and you've been an engineering manager and I wonder if you agree with that or if you have a different take you know because basically you're the the the common analogy is that you're no longer a software engineer you're just managing engineering agents right yeah if you've been a manager before that is an absolute so so here here's the thing the like Yes, you are a manager without all the things that no one wants to become a manager for the the when you become an engineering manager.
+Hands up if you are or have been an engineering manager, right? Hands up if you actually if you've not been in you want to be one.
+>> About 15 20%.
+>> All right, you come and talk to me afterwards.
+I I'll tell there's a hand up there.
+I'll talk you out of it.
+So, so what you think you become an engineering manager to like help people's career maybe have higher salary higher impact all you know there can be a lot of dynamics but the reality is is is you you become more removed from the product and you have to deal with people problems and the thing with with agents is you don't have to deal with people drama people problems conflict between your team I mean unless the next generation of agents start to fight with each other I think that'll be something but you actually you you do have to orchestrate but it's more like a tech lead role or or or or experienced engineer where where you're like mentoring uh mentoring engineers but you don't have the people management you don't need to worry about the personal problems so it's actually a lot more kind of empowering and I was talking with uh the podcast was was just out uh yesterday with with DHH uh creator of Ruby on Rails who said you know people told him like okay it's it's like managing things and he's not excited about managing agents but he feels it's more like a mech suit where you have like you can do seven things at once you can do it a lot faster and you're in control and that's more what it feels like.
+So there's orchestration, yes, but it's very different to management.
+And also the the really really bad thing or honestly shitty thing about management if if you make it into management which makes it hard also rewarding later when you you tell yourself at least this thing is you start a project with all these people under you.
+You know congratulations you've got 10 people wonderful and you start a project and in six months you will see some results of the decision that you made.
+With agents it's just so much faster.
+So the the feedback loop is faster.
+So I I think it's it's not much of it except for the orchestration and and and for that everyone's going to have their own flavor.
+Some people will will have the tendency to like run multiple agents and they're good at this or we good at it.
+Some people just do like two agents.
+Michelle Hashimoto I interviewed him.
+He has two agents.
+He always has one agent running that.
+No, he has one background agent that he doesn't.
+That's it.
+He's like two is enough for me.
+Great.
+>> Yeah.
+Yeah.
+Uh where figure out the patterns.
+Um uh I want to hit you on large tech infra.
+Uh this is something that I think both of us are very excited by by uh good infra which is a very niche uh interest.
+What are you seeing? >> It's wild to see how much of the So I said that from externally a lot of companies a lot of big tech companies especially the ones are spending a bunch on AI and have platforms and all that you're not seeing too much like more come out like Uber is a good example.
+I'm not seeing too many more features come out of Uber or new product launcher and they're like but what's going on? they are really investing in AI but when you look inside there's a whole lot of buzz they are rebuilding their complete IM infra you know they're and I'm not talking about they're buying cursor or or cloud code or all that they're doing that as well but they're completely they're building their own own custom background coding agents that is integrated into their monor repo they are are having uh their own MCP gateway that is is now integrated into service discovery their on call tooling is being retoled their internal code review system is like like categorizing based on risk.
+They are like and Uber is one example but everyone else Airbnb intercom Meta Microsoft even midsize companies are just building so much internal improp and I was asking to myself like why on one end this feels like such a waste but when I worked at Uber for four years I realized they spend so much on on internal platform there's two reasons one is honestly it's a it's a lowrisk way to get good with AI uh to be hands-on and these companies want to be hands-on but maybe you shouldn't start with shipping AI features no one wants into your codebase.
+Second of all, because these these companies have such so much code that never fit in a context window, by building custom solutions and just basic basic dragons, that kind of stuff, they will have better results than off-the-shelf vendors.
+So, they already have a win.
+And number three, honestly, is anything that has AI in it gets funded.
+So, there's this joke of if you're in the developer platform team and you're asking for more headcount, like good luck with that.
+Oh, developer platform.
+Oh, but say that you want to get two extra head count for agent experience.
+Done.
+So, so there's that part as well.
+But, but >> agent experience is just a CLI >> pretty much.
+But all of this come inside.
+There's so much buzz and so much work.
+Everyone's building their own custom system.
+So, I'm kind of wondering how long this will take.
+But I think for next year, this is going to happen.
+So, if you either have friends or if you're work if you're working at a company, you'll see, but talk with with friends at other large companies and you will probably see you are all building the same thing.
+If you're in a large company and you're not already building an MCP gateway, what are you even doing? >> Yeah.
+Um, actually a lot of these topics are exactly the things I cured for tomorrow.
+Uh, it's just fantastic to have you as the closing keynote for today because uh it's it's like a appetizer for tomorrow.
+We have talks about MCP gateway and all these sort of AI architecture and infra things and I do think like uh infra like taking AI infra seriously as a company is uh very mis not not that well un understood and right now you just kind of learn by example from people because there's not really like a textbook or anything like about it.
+So the way I think about this because again from if you just kind of step out and we love to criticize big tech of how they're wasting money here and there and by the way we love to criticize Google and I'm kind of thinking to myself like hang on what if Google ex actually executed well like do we want that and you know they would kill all the startups but but what they're doing makes makes sense and Shopify is an example where I'm like huh I'm starting to get why it makes sense to do all this stuff.
+So Shopify in 2021 they were the first company to have access to GitHub copilot.
+What happened is the the head of engineering Farhantoir heard about GitHub copilot being developed internally inside of GitHub and he pinged Thomas Dunca the CEO of GitHub at the time and said hey Thomas I heard you guys are doing co-pilot and he's like yeah we are it's internal.
+He's like I I'd like to get access to it.
+He's like yeah but it's not for sale.
+He's like no no no you don't understand.
+I I didn't ask if it's for sale.
+we would like to roll it out to all of Shopify and in return we will give you feedback for 3,000 people for you know as honest feedback all the time and so they got it a year before it was out anywhere and they incurred a lot of churn it wasn't that great initially and and they went through all of this stuff and then Shopify was the first company to on board to like a bunch of other tools and they gave unlimited budget and they're spending so much time ironing out bugs but the reason they're doing it this is what like made me click is they are trading off churn and expense and spending a lot more money to be at the forefront of this.
+They are a few months ahead or six months ahead of their competition and for them it's worth it.
+It's not worth it for anyone else, right? If you're if you're in a company where your business is like something something physical and you don't care like yeah just just wait out it it'll come.
+But for a lot of us in the tech industry this turn is worth it.
+Plus what Farhan told me is like because he actually told me he's kind of worried about the cost now but he was like look like it's still worth it because if it would look silly if I said you cannot have these tools how would I hire the best >> so it's it's innovation recruitment and it kind of makes sense when you think about it and the weird thing everyone's doing it at the same time so it looks silly but it it's rational uh my next podcast is with Mike Parin the CTO of Shopify and uh the sheer amount of machine learning that they do and infra that they set up for their customers makes me want to be a customer.
+You know, that's that's like the best uh endorsement I can give.
+Um I'm going to get meta a little bit and talk about pragmatic engineer.
+Uh you and I kind of startedish in COVID.
+Uh you just left Uber.
+Uh how has it been growing? What what are the main stats that you're proud of that uh you'd like to share with the world? >> Yeah.
+So I I started Pragmatic Engineer.
+I I I a joke that if it wasn't for CO I I would probably never have started the this thing because what happened with CO is uh Uber had layoffs and most of the tech industry was doing great but Uber was not and my team uh was hit by layoffs and then we we had to disperse the remaining people and other teams because our mission no longer made sense and it was just like a the morale was low my morale was low so I was like let me take a break I wanted to write some books Swix was writing his book the the coding career >> yeah some of you have read it I've met some of you >> yeah and that that's how we met there and then uh my plan was to write a book and then start start up some startup something something platform engineer control C controlV from what Uber was doing inside and that's actually almost all Uber su Uber startups it's amazing temporal is is is from there >> if I by the way if I did not start AI engineer I would have started platform engineer that that would have been the industry conference >> yeah love it uh and then I start I started the pragmatic engineer u a year after I left Uber it was just an experiment um I figured No one substack was taking off.
+No one was writing about software engineering in-depth and I just acted all confident saying pretended that I I knew what I was doing.
+The first article was about Uber's platform and program split that no one had written about publicly before and it's a it's a free article you can you can now check it out.
+Uh and it was like when you feel product market fit that's what I felt almost immediately.
+The first week before I published anything, just a confident Twitter post, I had 100 people pay upfront $100 for the whole year, which I was like, whoa, I have published anything.
+In six weeks, I was at a,000 people paying for this thing that didn't exist before, which was my old Uber base salary back back in Amsterdam.
+And it just kept going up.
+So like I I figured like when you find product market fit, this is like outside of like there's this rule like if you find product market fit, just keep doing what you're doing.
+So for me, I just kept writing that one article.
+I got all these interview requests, collaborations, podcast.
+I just said no to all of them because I knew the most important thing was to do what makes it successful, which is that one article.
+And later it turned into two articles.
+And for two years, this is all I did is two articles.
+And after two years, I looked up and I was like, huh, like this is actually working.
+People like doing it.
+I like doing it.
+There's a future in that.
+And that's when I decided I actually want to turn this into a business that I don't burn out because for two years every vacation I went to I was working 50 60 hours.
+I was always thinking I was writing I I couldn't really let go.
+So I started to grow the team a little bit.
+Uh I I Ellen Bird the first secondary researcher.
+Ellen, she's ex uh >> she's here right? >> Ellen's not here.
+Um Jessica is who who just joined uh later.
+>> Yeah.
+>> And then uh so now it was two of us.
+Uh, and I started a podcast a year and a half ago because I talked with so many people.
+I figured it was a bit of a shame to to not have it.
+So, the primatic engineer became the number one paid technology newsletter about four months after starting.
+It stayed there for three years.
+Now, semi analysis has >> Dylan versus uh you guys.
+Um, yeah.
+No, congrats on your success.
+Uh I think you're also a leading tech voice in Europe which I think you're sort of proudly sort of uh upholding that over here which I would really wanted to feature.
+Thank you for your support for AIE and uh everyone thank you to >> Awesome.
+Our next presenter can bring levity to the often serious world of engineering.
+Please join me in welcoming to the stage founder at sizzy.coy.
+All right.
+Wow.
+Back room.
+Those are not my slides.
+There you go.
+Hi, I'm K.
+We probably argued on X.
+I'm
