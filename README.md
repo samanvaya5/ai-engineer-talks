@@ -33,23 +33,39 @@ graph LR
 
 ---
 
-## 🚀 8 MANDATES FROM THE FRONT LINES
+## 🎯 OPPORTUNITY MAP: 2026 BUILDER PLAYS
+*Ranked targets from the AIE-Europe Strategic Intelligence.*
 
-1.  **BAN THE EDITOR (Lopopolo/OpenAI):** If you are manually editing files, you have no leverage. Spend your energy building the **Harness** that generates the code.
-2.  **AGENT-LEGIBLE IS THE NEW "CLEAN" (Artman/Linear):** If an agent "hallucinates" your architecture, it's because your code is unreadable. Architecture for the agent, not the human.
-3.  **BRUTE-FORCE QUALITY (Chieng/Cerebras):** With hardware hitting **1,200 TPS**, don't ask for "one good answer." Run 20 agents in parallel and verify the best one.
-4.  **MARKDOWN IS THE RUNTIME (Gomes/Cursor):** Delete your complex logic; replace it with **"Markdown Skills."** Prose is now a first-class execution primitive.
-5.  **TRUST NO ONE (Agrawal/Cloudflare):** AI-generated code is "untrusted code from the internet." Sandbox every tool-call in an **Isolate.**
-6.  **IMMUTABLE STATE (Bhaumik/Databricks):** Don't let agents mutate live state. Use **Append-Only Logs** and circuit breakers. AI failures are probabilistic; your infra must be deterministic.
-7.  **BEND THE MCP (Parra/Hauser):** Raw MCP tools are broken out-of-the-box. You must **Curate, Wrap, and Guardrail** every tool before the agent touches it.
-8.  **PLAYGROUNDS OVER MODELS (Fiorucci/Deepset):** RL environments (verifiable rewards) are how you make small models beat frontier models. The **Environment** is the new Moat.
+| Rank | Category | Opportunity | Why Now? | Market Size | Verdict |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **1** | **Governance** | **The Trust Proxy** | Agent "Permission Bloat" is causing P0 leaks. | **$12B** | **STRONG BUY** |
+| **2** | **Orchestration** | **RTS Command Centers** | Humans can't manage 20+ "reckless" agents. | **$8B** | **STRONG BUY** |
+| **3** | **Vertical AI** | **Durable Legal Workspaces** | Verification is the ultimate bottleneck. | **$25B** | **BUY (Niche)** |
+| **4** | **QA/DevOps** | **Overfitted Test Gen** | Agentic refactors need "brittle" safety nets. | **$5B** | **BUY (Utility)** |
+| **5** | **Infra** | **Stateless MCP Gateways** | Enterprise needs "Cloud Run" for MCP servers. | **$7B** | **STRONG BUY** |
+| **6** | **Management** | **Agentic Unit Econ** | No one knows the $ cost of a 100-agent refactor. | **$3B** | **SEED (SaaS)** |
+| **7** | **UX/DX** | **Temporal Debuggers** | AI UI is "janky" because it doesn't "feel" time. | **$2B** | **R&D** |
+| **8** | **Memory** | **Tiered Session Vaults** | Context "pages out" every 30s at 1200 TPS. | **$4B** | **BUY (Infra)** |
 
 ---
 
-## 🎯 6-MONTH CLOCK: WHAT TO BUILD
-- [ ] **AGENT OBSERVABILITY:** The "Datadog for AI." Standard metrics for quality/hallucinations.
-- [ ] **CONTEXT CACHING:** Context is the scarcest resource. Build intelligent lifecycle management.
-- [ ] **MCP GOVERNANCE:** Security hubs for Model Context Protocol (OAuth 2.1 + Input Constraining).
+## 🚀 8 MANDATES FROM THE FRONT LINES
+
+1.  **BAN THE EDITOR (Lopopolo/OpenAI):** If you are manually editing files, you have no leverage. Spend your energy building the **Harness** that generates the code.
+2.  **AGENT-LEGIBLE IS THE NEW "CLEAN" (Artman/Linear):** Architecture for the agent, not the human. If your code makes an agent "demented," refactor or die.
+3.  **BRUTE-FORCE QUALITY (Chieng/Cerebras):** With hardware hitting **1,200 TPS**, run 20 agents in parallel and verify the best one.
+4.  **MARKDOWN IS THE RUNTIME (Gomes/Cursor):** Delete your complex logic; replace it with **"Markdown Skills"** (Prose-as-Primitive).
+5.  **TRUST NO ONE (Agrawal/Cloudflare):** AI code is "untrusted code from the internet." Sandbox every tool-call in an **Isolate.**
+6.  **IMMUTABLE STATE (Bhaumik/Databricks):** Use **Append-Only Logs** and circuit breakers. AI failures are probabilistic; infra must be deterministic.
+7.  **BEND THE MCP (Parra/Hauser):** Raw MCP tools are broken. You must **Curate, Wrap, and Guardrail** every tool.
+8.  **PLAYGROUNDS OVER MODELS (Fiorucci/Deepset):** RL environments (verifiable rewards) are the new Moat.
+
+---
+
+## 📅 THE 6-MONTH CLOCK
+- [ ] **OCT 2026:** `agents.md` is as universal as `.gitignore`.
+- [ ] **OCT 2026:** First major **MCP Tool Poisoning** breach forces enterprise gatekeeping.
+- [ ] **JAN 2027:** **"Context Engineer"** replaces "Prompt Engineer" as the standard job title.
 
 ---
 **VERDICT:** *If it isn't Agent-Legible, it isn't Software.*
